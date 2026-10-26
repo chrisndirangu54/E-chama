@@ -1,0 +1,14 @@
+{
+  "name": "echama-functions",
+  "engines": { "node": "18" },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.11.0",
+    "firebase-functions": "^4.5.0",
+    "axios": "^1.6.0",
+    "twilio": "^4.19.0",
+    "openai": "^4.20.0",
+    "@google-cloud/vision": "^4.0.0",
+    "web3": "^4.3.0"
+  }
+}
