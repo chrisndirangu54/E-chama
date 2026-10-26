@@ -1,0 +1,26 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+
+# Firebase
+.firebase/
+firebase-debug.log
+ui-debug.log
+
+# Node
+node_modules/
+functions/node_modules/
+
+# Env / Secrets
+.env
+*.key
+serviceAccount.json
+
+# OS
+.DS_Store
+Thumbs.db
