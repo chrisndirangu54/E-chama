@@ -25,6 +25,7 @@ class DashboardScreen extends StatelessWidget {
               ElevatedButton(onPressed: () => Navigator.pushNamed(context, '/trading'), child: const Text('Trade ChamaCoin')),
               ElevatedButton(onPressed: () => Navigator.pushNamed(context, '/voting'), child: const Text('Voting & Loans')),
               ElevatedButton(onPressed: () => Navigator.pushNamed(context, '/chat'), child: const Text('Chat (WhatsApp Sync)')),
+              ElevatedButton(onPressed: () => Navigator.pushNamed(context, '/insurance'), child: const Text('Insurance for Registered Chamas')),
             ],
           );
         },
