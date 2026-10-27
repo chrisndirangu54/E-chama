@@ -5,6 +5,7 @@ import 'screens/assets.dart';
 import 'screens/trading.dart';
 import 'screens/voting.dart';
 import 'screens/chat.dart';
+import 'screens/insurance.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +28,7 @@ class EChamaApp extends StatelessWidget {
         '/trading': (context) => const TradingScreen(chamaId: 'demo'),
         '/voting': (context) => const VotingScreen(chamaId: 'demo'),
         '/chat': (context) => const ChatScreen(chamaId: 'demo'),
+        '/insurance': (context) => const ChamaInsuranceScreen(chamaId: 'demo'),
       },
     );
   }
